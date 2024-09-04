@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body{
+    overflow-x: hidden;
+}
+
+*{
+    font-family: "Mulish",sans-serif;
+}
+.section1{
+    background: rgb(12, 12, 97);
+    color: #fff;
+    height: 560px;
+}
+
+.sec1{
+    position: relative;
+    top: 90px;
+    background-image: url(it.img/hero-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px; 
+    width:660px ;
+    right: 120px;
+}
+.section1 h1{
+     position: relative;
+     top: 120px;
+     text-transform: capitalize;
+     font-weight: 500;
+     font-size: 55px;
+}
+.section1 p{
+    position: relative;
+    top: 130px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.btn1{
+   position: relative;
+   top:140px ;
+   background-color: #ff4495;
+   color: #fff;
+   border: 2px solid transparent;
+   border-radius: 25px 25px 25px 25px;
+   text-transform: capitalize;
+   font-size: 17px;
+   height: 45px;
+   width: 140px;
+}
+
+.section-padding{
+    padding:100px 0;
+}
+ /* service section start */
+.container h2{
+    font-size: 40px;
+    margin-left: 425px;
+
+}
+.container h3{
+    font-size: 40px;
+    width: 40%;
+    margin-left: 350px;
+}
+/* service section end */
+
+/* business section css start */
+.bsec{
+    position: relative;
+    top: 15px;
+    margin-left:70px ;
+    color:#ff4495;
+    
+}
+.bsech5{
+    position: relative;
+    top: 20px;
+    margin-left:70px ;
+    color:black;
+}
+.bsecp{
+    position: relative;
+    top: 15px;
+    margin-left:70px ;
+    color:black;
+}
+.btn2{
+    position: relative;
+    top:35px ;
+    margin-left: 60px;
+    background-color: #ff4495;
+    color: #fff;
+    border: 2px solid transparent;
+    border-radius: 25px 25px 25px 25px;
+    text-transform: capitalize;
+    font-size: 17px;
+    height: 45px;
+    width: 140px; 
+}
+/* business section css end */
+
+/* Industries section section start */
+
+.induspara{
+    position: relative;
+    top: 60px;
+    margin-left: 15%;
+    width: 90%;
+    font-size: 18px;  
+}
+
+/* Industries section section end */
+
+/* BODY 6  section section start */
+.body6h1{
+    text-align: center;
+    color:rgb(12, 12, 97) ;
+    font-weight: 700;
+}
+.body6para{
+    position: relative;
+    top: 18px;
+    text-align: center;
+    margin-left: 178px;
+    color: rgb(12, 12, 97);
+    width: 70%;
+    font-size: 18px;
+    line-height: 1.75;
+}
+.btn3{
+    border-radius: 25px 25px 25px 25px ;
+    border: 1px solid #ff4495;
+    background-color:#fff ;
+    position: relative;
+    top: 50px;
+    text-align: center;
+    margin-left: 465px;
+    color:#ff4495;
+    width: 200px;
+    height: 50px;
+}
+/* BODY 6  section section start
+
+
+/* stuff section start */
+.stuffsech1{
+    text-align: center;
+    color: rgb(12, 12, 97);
+    font-weight: 700;
+    font-size: 50px;
+}
+/* stuff section end */
+
+ /* IT soluton section start  */
+.itsol{
+    background:linear-gradient(rgba(0,0,255,0.2),
+    rgba(0,0,255,0.2)),
+    url(it.img/section_bg01.jpg);
+    background-position: center;
+    height: 540px;
+}       
+.btn4{
+    
+    position: relative;
+    top: 85px;
+    margin-left: 47%;
+    border-radius:35px 35px 35px 35px ;
+    width: 70px;
+    height: 70px;
+    background-color: #ff4495;
+    border-color:#ff4495;
+}  
+
+
+.itsol p{
+    position: relative;
+    top: 120px;
+    margin-left: 160px ;
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+    color: black;
+    width: 70%;
+}
+.btn5{
+    border-radius: 25px 25px 25px 25px ;
+    border: 1px solid transparent;
+    background-color:#fff ;
+    position: relative;
+    text-transform: capitalize;
+    font-size: 16px;
+    top: 150px;
+    text-align: center;
+    margin-left: 520px;
+    color:#ff4495;
+    width: 200px;
+    height: 50px;
+}
+ /* IT soluton section end */
+  /* footer section start */
+ .li1{
+    list-style: none; 
+ }
+ a{
+    text-decoration: none;
+ }
+ /* footer section end  */
+ 
+
+
+
+
+
+ @media only screen and (max-width:480px) {
+    .section1{
+        display: flex;
+        height: 500px;
+    }
+    .sec1{
+        display: none;
+    }
+    .section1 h1{
+        display:flex !important;
+        position: absolute!important;
+        top: 150px;
+        font-size: 30px;
+        width: 100% !important;
+    }
+    .section1 p{
+        
+        display: flex !important;
+        justify-content:center;
+        position: absolute;
+        top: 230px;
+        font-size: 18px;
+    }
+    .btn1{
+       position: absolute;
+       top:330px ;
+       font-size: 17px;
+       height: 45px;
+       width: 140px;
+       transition: all .5s ease-in;
+    }
+    .btn1:hover{
+        transform:translatey(-20px);
+    }
+   .section-padding{
+    padding:50px 0 !important;
+   }
+   
+
+   .container h5{
+    font-size: 20px;
+   }
+   .container h3 {
+    display: flex;
+    position: relative;
+    top: 10px;
+    margin-left:55px !important;
+    width: 80%;
+    font-size:25px ;
+   }
+   .r1{
+    display:inline !important;
+   }
+   .c1{
+     display:flex;
+     justify-content: center;
+     width: 100%;
+     position: relative;
+    top: 30px;
+   }
+
+
+    .aboutimgg{
+       height: 480px; 
+    }
+  
+    .c2{
+        display:inline;
+        position: relative;
+        top: 20px;
+        width: 100%;
+        margin-left: -60px;
+    }
+    .c2para {
+        margin-left: 15px !important;
+        width: 100% !important;
+    }
+    
+    .btn2{
+        transition: 1s ease-in;
+    }
+    .btn2:hover{
+        transform: translatex(100px);
+    }
+
+    .c3{
+      display:inline;
+        position: relative;
+        width: 100%;
+    }
+
+    .c3para{
+        width:190% !important;
+        left:-54px !important;
+        position: relative !important;
+        top: -20px !important;
+        font-size: 22px !important;
+    }
+    
+    .c3para1{
+        width: 200% !important;
+        font-size:16px !important ;
+    }
+     
+    .c1p{
+        font-size: 18px !important;
+    } 
+
+
+    .body6h1{
+        width:120% !important;
+        font-size:22px ;
+        margin-left:-40px !important;
+    }
+    .body6para{
+        width: 100% !important;
+        font-size: 17px !important;
+        margin-left:-0px !important;
+    }
+
+    .btn3{
+        position: relative !important;
+        margin-left:120px !important;
+    }
+
+
+
+    .stuffsech1{
+        text-align: center !important;
+        font-size: 24px !important;
+    }
+
+    .c11{
+        display: inline-block;
+        position:absolute  !important;
+        bottom:-80px !important ;
+        font-size: 18px !important;
+    }
+    
+
+
+    .itsol{
+        position: relative !important;
+        top: 60px !important;
+        height: 500px !important;
+        background-size: cover !important;
+        width: 110% !important;
+    }       
+     .btn4{
+        
+        position: relative !important;
+        top: 85px;
+        margin-left: 40% !important;
+        width: 65px !important;
+        height: 65px !important;
+    }  
+     *
+    
+    .itsol p{
+        position: relative !;
+        top: 130px !important;
+        margin-left:10px !important ;
+        font-size: 25px !important;
+        width: 90% !important;
+    }
+     .btn5{
+        position: relative !important;
+        font-size: 15px !important;
+        top: 160px !important;
+        text-align: center !important;
+        margin-left:125px !important;
+        width: 200px !important;
+        height: 50px !important;
+    }
+
+     
+
+
+    .c22{
+        display:inline !important;
+        position: relative !important;
+        top: 25px !important;
+        width: 100% !important;        
+    }
+
+    .c23{
+        display:inline !important;
+        position: relative !important;
+        top: 55px !important;
+        width: 100% !important;
+        margin-left: -45px !important;
+    }
+
+    .c24{
+        display:inline !important;
+        position: relative !important;
+        top: 85px !important;
+        width: 100% !important;
+        margin-left: 5px !important;
+    } 
+
+    .c25{
+        display:inline !important;
+        position: relative !important;
+        top: 110px !important;
+        width: 100% !important;
+        margin-left: 5px !important;
+        font-size: 14px !important;
+    }
+
+    #icn1{
+        position: relative !important;
+        top: 0px !important;
+        font-size: 17px !important;
+    }
+
+
+    .lastdiv{
+        position:relative  !important;
+        top: 80px !important;
+        font-size: 15px !important;
+        line-height: 2 !important;
+    }
+
+
+ }
+
+
+  
